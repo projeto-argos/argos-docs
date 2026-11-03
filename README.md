@@ -1,47 +1,29 @@
 # ARGOS — Documentação
 
-Repositório destinado à documentação interdisciplinar do projeto ARGOS.
+Documentação de UX do ARGOS, sistema web de gestão de pecuária e de medicamentos aplicados em bovinos.
 
-## Conteúdo
+## Estrutura
 
 ```text
 argos-docs/
-├── requisitos/
-├── ux/
-├── metodologia/
-├── sistemas-operacionais/
-├── logica-programacao/
-├── arquitetura/
-├── apresentacoes/
-└── entregas/
+├── ux/            artefatos de Experiência do Usuário
+│   └── imagens/
+└── README.md
 ```
 
-## Disciplinas relacionadas
+## UX
 
-### Experiência do Usuário
+O índice completo está em [ux/README.md](./ux/README.md).
 
-- Pesquisas qualitativas e quantitativas
-- Matriz CSD
-- Benchmark e Desk Research
-- Persona e mapa de empatia
-- Jornada do usuário
-- Sitemap e fluxos
-- Protótipos
-- Testes de usabilidade
-- Análise heurística
+- **Ideação:** [pesquisas](./ux/pesquisas.md), [matriz CSD](./ux/matriz-csd.md), [benchmark](./ux/benchmark.md), [desk research](./ux/desk-research.md), [persona e mapa de empatia](./ux/persona.md), [jornada](./ux/jornada.md), [fluxograma](./ux/fluxograma.md) e [testes com usuários](./ux/testes-usabilidade.md).
+- **Protótipo:** [protótipo de alta fidelidade e V2](./ux/prototipo.md) e [UI Kit](./ux/ui-kit.md).
+- **Avaliação:** [análise heurística](./ux/analise-heuristica.md) e [matriz de priorização](./ux/matriz-priorizacao.md).
 
-### Metodologia de Projetos
+## Repositórios do projeto
 
-- Termo de abertura
-- Planejamento
-- Cronograma
-- Acompanhamento das demandas
-- Termo de encerramento
-
-### Outras documentações
-
-Também serão armazenados neste repositório os artefatos de Sistemas Operacionais, Lógica de Programação, arquitetura e apresentações do projeto.
-
-## Organização do projeto
-
-As demandas, responsáveis e prazos são acompanhados no Jira. O GitHub é utilizado para versionamento, colaboração e armazenamento dos artefatos.
+| Repositório | Conteúdo |
+|---|---|
+| [argos-web-crud](https://github.com/projeto-argos/argos-web-crud) | Aplicação Java (Servlet, JSP e JDBC) |
+| [argos-bd](https://github.com/projeto-argos/argos-bd) | Modelagem, scripts SQL e convenção de nomenclatura |
+| [argos-landingpage](https://github.com/projeto-argos/argos-landingpage) | Landing page |
+| [argos-ai](https://github.com/projeto-argos/argos-ai) | Agente de IA e memorial descritivo |
